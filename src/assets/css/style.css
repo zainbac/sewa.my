@@ -16,7 +16,7 @@ body {
 }
 
 a {
-  color: #f82249;
+  color: black;
   transition: 0.5s;
 }
 
@@ -26,6 +26,7 @@ a:focus {
   color: #f8234a;
   outline: none;
   text-decoration: none;
+  font-weight: bold;
 }
 
 p {
