@@ -907,8 +907,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #venue .venue-map iframe {
-  width: 440px;
-  height: 300px;
+  width: 500px;
+  height: 320px;
   min-height: 300px;
   padding-top: 1;
   align-content: center;
@@ -1501,6 +1501,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-contact {
+  padding-left: 89px;
   margin-bottom: 30px;
 }
 
