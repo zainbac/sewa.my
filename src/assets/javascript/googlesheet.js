@@ -1,4 +1,4 @@
-var $form = $("#test-form"),
+var $form = $("form#test-form"),
   url =
     "https://script.google.com/macros/s/AKfycbxOVGVLfcaxsZtUdM6rJh5lrrFlvIAYeDImaUwfsNpRz-IHmuE/exec";
 
