@@ -12,7 +12,14 @@ jQuery(document).ready(function( $ ) {
     $('html, body').animate({scrollTop : 0},1500, 'easeInOutExpo');
     return false;
   });
-
+  $(window).load(function() {
+    $('.post-module').hover(function() {
+      $(this).find('.description').stop().animate({
+        height: "toggle",
+        opacity: "toggle"
+      }, 300);
+    });
+  });
   // Header fixed on scroll
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
